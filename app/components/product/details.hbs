@@ -19,8 +19,8 @@
     <div>
         <h5>Color</h5>
         <div class="product-color active-{{@color}}">
-            <span class="product-color color-fiesta"></span>
-            <span class="product-color color-ash"></span>
+            <span class="product-color color-fiesta" {{on "click" (fn @onChangeColor "fiesta")}}></span>
+            <span class="product-color color-ash" {{on "click" (fn @onChangeColor "ash")}}></span>
         </div>
     </div>
 </div>
